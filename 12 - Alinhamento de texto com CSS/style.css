@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+
+body {
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    text-indent: to right, 100em;
+}
+
+p {
+    text-align: justify;
+}

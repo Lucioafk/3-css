@@ -1,0 +1,26 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+body {
+    background-image: linear-gradient(to right,#025159,#3F858C,#7AB8BF );
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #A67458;
+    font-size: 2rem;
+}
+
+code {
+    white-space: pre-wrap;
+}

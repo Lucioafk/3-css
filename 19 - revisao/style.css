@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family:'navio' ;
+    src: url('font/MarketingScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5f1e5;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    width: 24em;
+    height: auto;
+}
+
+.navio {
+    display: block;
+    margin-top: -98px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin: auto;
+    
+    width: 24em;
+    height: auto;
+}
+
+#ajustandonavio {
+    margin-top: -98px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+h1,h2 {
+   font-family: navio
+}
+
+p {
+    font-family: "Raleway", serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer {
+    height: 100px;
+}
+
+address {
+
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#botao {
+    background-color: #337044;
+    border-color:#337044;;
+    border-radius: 100px;
+    border-style: solid;
+    margin: left;
+    
+    height: 10em;
+    width: 20em;
+
+}
+
+#linkbotao {
+    font-family: "Raleway", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+   
+}

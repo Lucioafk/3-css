@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDFnPw8N-1up0NPqCJ-QqHMuOz12zTf4v1g&s" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+
+        <h1>Revisão</h1>
+        <hr>
+
+        <h2>Texto exemplo</h2>
+
+        <p>Lorem ipsum dolor <strong>aaa</strong> amet <em>consectetur</em> adipisicing elit. Suscipit error eius minus quis. Suscipit neque architecto, sint consequatur eum, consectetur quam laborum expedita qui, ex nobis ea nulla tenetur? Praesentium asperiores fugiat illum dolores quae quaerat quo eos qui veritatis a et at, molestias autem cum esse laborum, voluptate laboriosam officiis facilis nostrum assumenda! Quimica da agua é H <sub>2</sub>O e o X é elevado a 2 então ficaria X <sup>2</sup>. <mark>Ducimus eligendi neque adipisci amet delectus! Aut culpa ab porro minima iure minus aperiam maxime?</mark> Adipisci, amet! Iusto, voluptatem? Minus libero amet laudantium voluptates nostrum reiciendis laborum illum quos, dignissimos explicabo corrupti!</p>
+
+        <p><del>Isso não existe mais</del> <ins>Voce tem que focar nisso</ins></p>
+
+        <P> 
+            <pre>
+                O pre serve para deixar igual como deixamos 
+            ele digitado
+            Podendo haver linhas puladas e tudo mais igual
+            esse texto
+            agora 
+            sem usar a tag br
+            </pre>
+        </P>
+
+        <h2>Codigo</h2>
+        <p>
+            <code>
+                <pre>
+                    function generatePassword(length = 12) {
+                    const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    0123456789!@#$%^&*()_+[]{}|;:,.<>?";
+                    HIJKLMNOPQRSTUVWXYZ
+                    0123456789!@#$%^&*()_+[]{}|;:,.<>?";
+                    let password = "";
+                    for (let i = 0; i < length; i++) {
+                        const randomIndex = Math.floor(Math.random() * chars.length);
+                        password += chars[randomIndex];
+                    }
+                    return password;
+                }
+                
+                console.log("Generated Password:", generatePassword());
+            </pre>
+            </code>
+        </p>
+
+        <p>
+            Esse serve para citação curta <br>
+            <q>Três regras: não prometa nada quando estiver feliz; não responda nada quando estiver irritado; não decida nada quando estiver triste.</q>
+        </p>
+
+        <p>
+            Esse para citações grandes
+            <blockquote>Não devemos de forma alguma preocupar-nos com o que diz a maioria, mas apenas com a opinião dos que têm conhecimento do justo e do injusto, e com a própria verdade.</blockquote>
+        </p>
+
+        <p>
+            Esse é para citação de onde encontrar alguem 
+            <address>
+                RUA DOIS - 1534
+            </address>
+        </p>
+
+        <button><a href="index.html" target="_self">Voltar para a pagina principal</a></button>
+
+    </main>
+</body>
+</html>

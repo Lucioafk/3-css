@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Atkinson Hyperlegible Next", serif;;
+    font-size: 1em;
+    
+    
+}
+
+body { 
+    background-image: linear-gradient(to right, #6D758C, #AAADBF,#6D758C);
+}
+
+main {
+    width: 900px;
+    background-color: #F2F0F0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+#tituloprincipal { 
+    text-align: center;
+    color: #274B59;
+    font-size: 3em;
+}
+
+#codigo {
+    text-align: left;
+    
+}
+
+h1, h2 {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #274B59;
+}
+
+p { 
+    font-size: 14px;
+    font-family: "Roboto Condensed", serif;
+    font-style: italic;
+    color: #0D0D0D;
+}
